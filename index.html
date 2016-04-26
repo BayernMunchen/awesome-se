@@ -1,44 +1,25 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta charset="UTF-8">
     <title>Awesome-se by SJTU-SE</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="javascripts/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/SJTU-SE/awesome-se">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/SJTU-SE/awesome-se/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/SJTU-SE/awesome-se/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+    <section class="page-header">
+      <h1 class="project-name">Awesome-se</h1>
+      <h2 class="project-tagline">cheatsheet in SE, SJTU</h2>
+      <a href="https://github.com/SJTU-SE/awesome-se" class="btn">View on GitHub</a>
+      <a href="https://github.com/SJTU-SE/awesome-se/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/SJTU-SE/awesome-se/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>Awesome-se</h1>
-          <p>cheatsheet in SE, SJTU</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/SJTU-SE">SJTU-SE</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
-        <h1>
+    <section class="main-content">
+      <h1>
 <a id="资源清单" class="anchor" href="#%E8%B5%84%E6%BA%90%E6%B8%85%E5%8D%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>资源清单</h1>
 
 <h2>
@@ -60,6 +41,7 @@
 <li><a href="#programming-languages">Programming Languages</a></li>
 <li><a href="#computer-graphics">Computer Graphics</a></li>
 <li><a href="#compiler">Compiler</a></li>
+<li><a href="#distributed-system">Distributed System</a></li>
 </ul>
 
 <hr>
@@ -69,10 +51,12 @@
 
 <p>这是一个志在收集上海交通大学软件学院同学课程编程作业的项目，收集的目的在于为后来的同学提供一些参考，也希望你能够积极地提交自己的Lab/Project到这个项目中。如果你有贡献的想法，</p>
 
-<ul>
+<ol>
 <li>可以直接Pull Requests</li>
-<li>或者联系<a href="https://github.com/gaocegege">gaocegege</a>，邀请你加入<a href="https://github.com/SJTU-SE">SJTU-SE</a>中，一起XX一起飞。</li>
-</ul>
+<li>如果你是软件学院的同学，请联系<a href="https://github.com/gaocegege">@gaocegege</a>，邀请你加入<a href="https://github.com/SJTU-SE">SJTU-SE</a>中。</li>
+</ol>
+
+<p>PS：学院课程检查可能设有Anti-Cheat Check，远离copycat，从我做起_(:зゝ∠)_</p>
 
 <p>以下是各种课程的列表，顺序不分先后。</p>
 
@@ -123,7 +107,8 @@
 <ul>
 <li><a href="https://github.com/gaocegege/Onlien-Book-Store">gaocegege-2012</a></li>
 <li><a href="https://github.com/pwwpche/Simple-Online-BookStore">pwwpche-2012</a></li>
-<li><a href="https://github.com/wizardforcel/se223">wizardforcel-2012</a></li>
+<li>wizardforcel-2012 <a href="https://github.com/wizardforcel/se223">Bookstore with PHP, Sevlet+JSP, SSH</a> <a href="https://github.com/wizardforcel/se343">Bookstore with EJB</a>
+</li>
 <li><a href="https://github.com/tcbbd/Web-Store">tcbbd-2012</a></li>
 <li><a href="https://github.com/hczhcz/bookstore">hczhcz-2013</a></li>
 <li><a href="https://github.com/silencious/DB-Bookstore">silencious-2013</a></li>
@@ -164,20 +149,43 @@
 <ul>
 <li><a href="https://github.com/Azard/World-of-Garden">Azard-2012</a></li>
 <li><a href="https://github.com/tcbbd/GLGarden">tcbbd-2012</a></li>
+<li><a href="https://github.com/zackszhu/SimpleQuidditch">zackszhu-2013</a></li>
 </ul>
 
 <h3>
 <a id="compiler" class="anchor" href="#compiler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compiler</h3>
 
 <ul>
-<li><a href="https://github.com/Azard/PsychoCompiler">Azard-2012, guoyanchang-2012</a></li>
+<li><a href="https://github.com/Azard/PsychoCompiler">Azard, guoyanchang-2012</a></li>
 <li><a href="https://github.com/tcbbd/dragon-Compiler">tcbbd-2012</a></li>
+<li><a href="https://github.com/zackszhu/ZodiacLanguage">zackszhu-2013</a></li>
+<li><a href="https://github.com/rododo-meow/jcc">rododo-2013</a></li>
+<li>hczhcz, gaocegege, qikangqi-2012,2013 <a href="https://github.com/gaocegege/CompilerLab">MyLang</a> <a href="https://github.com/hczhcz/myparser">MyParser</a> <a href="https://github.com/hczhcz/libblock2">MyLang2 &amp; libBlock2</a>
+</li>
+<li><a href="https://github.com/riaqn/estlc">riaqn,silencious,yhzhang-2013</a></li>
 </ul>
-      </section>
 
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
+<h3>
+<a id="distributed-system" class="anchor" href="#distributed-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Distributed System</h3>
+
+<p>The following is the result of searching "6.824 distributed systems site:github.com" on google.</p>
+
+<ul>
+<li><a href="https://github.com/bluesea147/6.824">bluesea147</a></li>
+<li><a href="https://github.com/chyyuu/mit-ds-course">chyyuu</a></li>
+<li><a href="https://github.com/norlanliu/mit-6.824">norlanliu</a></li>
+<li><a href="https://github.com/zeyuanxy/course-6.824-distributed-systems/">zeyuanxy</a></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/SJTU-SE/awesome-se">Awesome-se</a> is maintained by <a href="https://github.com/SJTU-SE">SJTU-SE</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
