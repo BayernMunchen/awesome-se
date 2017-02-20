@@ -1,0 +1,8 @@
+title: Awesome-se
+description: cheatsheet in SE, SJTU
+google_analytics: UA-54253120-6
+show_downloads: true
+theme: jekyll-theme-hacker
+
+gems:
+  - jekyll-mentions
